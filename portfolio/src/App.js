@@ -1,12 +1,19 @@
 // import logo from "./logo.svg";
 import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainPage from "./MainPage";
+import AboutMe from "./AboutMe";
+import ProjectPage from "./ProjectPage";
 
 function App() {
   return (
-    <div className="min-h-screen">
-      <MainPage />
-      {/* <header className="App-header">
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="/AboutMe" element={<AboutMe />} />
+        <Route path="/ProjectPage" element={<ProjectPage />} />
+        {/* <MainPage /> */}
+        {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -20,7 +27,8 @@ function App() {
           Learn React
         </a>
       </header> */}
-    </div>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
