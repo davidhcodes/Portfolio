@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import gradphoto from "../src/assets/linkedinprofile.png";
 import ReactLogo from "./logo.svg";
 import JSLogo from "./assets/JavaScript-logo.png";
@@ -25,6 +25,9 @@ export default function MainPage() {
             <h2 className="text-white text-3xl flex mt-5  shadow-md">
               Junior Software Developer
             </h2>
+            {/* <h2 className="text-white text-xl flex mt-2  shadow-md">
+              MEng Electrical Engineering (Upper Second-Class Honours)
+            </h2> */}
             <p className="text-white mt-4 text-xs w-96">
               Welcome to my portfolio. I'm a junior software developer with
               knowledge of full-stack development from the award-winning

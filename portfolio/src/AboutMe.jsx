@@ -1,8 +1,9 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { Banner } from "./Banner";
 import AECOMLogo from "./assets/aecomlogo.jpg";
 import DeimosLogo from "./assets/DeimosLogo.jpg";
 import SheffieldUniLogo from "./assets/sheffieldunilogo.jpg";
+import Northcoders from "./assets/northcoders.jpg";
 
 export default function AboutMe() {
   return (
@@ -15,16 +16,35 @@ export default function AboutMe() {
           About Me
         </h1>
       </div>
-      <div className="row-start-12 row-end-20 col-span-3 w-full  min-h-screen bg-blue-500">
-        <h1 className="text-3xl">
-          This information about my previous companies
-        </h1>
+      <div className="row-start-12 row-end-14 col-span-3 w-full  min-h-screen bg-blue-950 pr-5 ">
+        <p className="text-xl text-white pl-5 pt-3">
+          Graduating from the University of Sheffield with an Upper Second-Class
+          Honours in Electrical Engineering (MEng), I worked at the major
+          multi-national consultancy firm, AECOM, as an Electrical Engineer, I
+          developed my communication, teamwork and collaboration skills.
+        </p>
+        <p className="text-xl text-white pl-5 pt-3">
+          After AECOM, I wanted to explore my passion for software development
+          and space and worked for almost 2 years as a GNSS Engineer, using C to
+          develop features for satellite receivers.
+        </p>
+        <p className="text-xl text-white pl-5 pt-3">
+          Through personal projects I really enjoyed software development and
+          enrolled in the award-winning bootcamp, Northcoders, 13-week intense
+          full-stack web development course that prioritises hands-on experience
+          in creating projects from scratch.
+        </p>
       </div>
-      <div className="row-start-12 row-end-20 col-span-2 w-full  min-h-screen space-y-1 ">
+      <div className="row-start-12 row-end-20 col-span-2 w-full  min-h-screen  ">
         {/* <h1 className="text-3xl">These are photos of the companies</h1> */}
-        <img src={SheffieldUniLogo} className="w-48" />
-        <img src={AECOMLogo} className="w-48" />
-        <img src={DeimosLogo} className="w-48 " />
+        <div className="flex">
+          <img src={SheffieldUniLogo} className="w-72" />
+          <img src={AECOMLogo} className="w-48" />
+        </div>
+        <div className="flex">
+          <img src={DeimosLogo} className="w-72" />
+          <img src={Northcoders} className="w-48" />
+        </div>
       </div>
     </div>
   );
