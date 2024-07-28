@@ -29,11 +29,12 @@ export default function MainPage() {
               MEng Electrical Engineering (Upper Second-Class Honours)
             </h2> */}
             <p className="text-white mt-4 text-xs w-96">
-              Welcome to my portfolio. I'm a junior software developer with
-              knowledge of full-stack development from the award-winning
-              software development bootcamp, Northcoders and experience in
-              embedded software. This website is a collection of my previous and
-              current projects and information about me as a professional.
+              Junior software developer with knowledge of full-stack development
+              from the award-winning software development bootcamp, Northcoders
+              and experience in embedded software and working for a major
+              multi-nationational engineering consulatancy firm. This website is
+              a collection of my previous and current projects and information
+              about me as a professional.
             </p>
           </div>
           <img
@@ -50,7 +51,7 @@ export default function MainPage() {
               alt="React logo"
             />
             <p className="px-1 w-40 text-left ml-2 text-xs text-white mt-2 pb-1">
-              I learned React primarily through Northcoders and have developed
+              React primarily learned through Northcoders and have developed
               multiple applications detailed on the projects page. I have also
               developed React Native applications
             </p>
@@ -58,22 +59,22 @@ export default function MainPage() {
           <div className="bg-blue-950 h-52  pt-2">
             <img className="w-16 ml-12" src={TSLogo} />
             <p className="px-1 w-40  text-left ml-2 text-xs text-white mt-6 pb-1">
-              I learned TypeScript primarily through Northcoders and personal
+              TypeScript primarily learned through Northcoders and personal
               projects further information detailed on the projects page
             </p>
           </div>
           <div className="bg-blue-950 h-52 pt-2">
             <img className="w-16 ml-12" src={JSLogo} />
             <p className="px-1 w-40 text-left ml-2 text-xs text-white mt-6 pb-1">
-              I learned JavaScript primarily through Northcoders and have
+              JavaScript primarily learned through Northcoders and have
               developed multiple applications detailed on the projects page
             </p>
           </div>
           <div className="bg-blue-950 h-52 pt-2 ">
             <img className="w-16 ml-12" src={CLogo} />
             <p className="px-1 w-40 text-left ml-2 text-xs text-white mt-6 pb-1">
-              I used C for approximately 2 years developing multiple features
-              and projects, working as an GNSS Engineer
+              Professional experience in C for approximately 2 years developing
+              multiple features and projects, working as an GNSS Engineer
             </p>
           </div>
         </div>

@@ -7,7 +7,7 @@ import Northcoders from "./assets/northcoders.jpg";
 
 export default function AboutMe() {
   return (
-    <div className=" m-auto grid grid-rows-20 grid-cols-2 gap-2 mb-24 bg-gradient-to-l from-indigo-950 to-blue-900  md:grid-rows-20 md:grid-cols-5 w-full ">
+    <div className=" m-auto grid grid-rows-20 grid-cols-2 gap-2 mb-24  bg-gradient-to-l from-indigo-950 to-blue-950  md:grid-rows-20 md:grid-cols-5 w-full ">
       <div className="col-span-5 row-start-1 row-end-5 bg-blue-950 flex justify-center space-x-20 py-5">
         <Banner />
       </div>
@@ -19,9 +19,10 @@ export default function AboutMe() {
       <div className="row-start-12 row-end-14 col-span-3 w-full  min-h-screen bg-blue-950 pr-5 ">
         <p className="text-xl text-white pl-5 pt-3">
           Graduating from the University of Sheffield with an Upper Second-Class
-          Honours in Electrical Engineering (MEng), I worked at the major
-          multi-national consultancy firm, AECOM, as an Electrical Engineer, I
-          developed my communication, teamwork and collaboration skills.
+          Honours Masters in Electrical Engineering (MEng), I worked at the
+          major multi-national consultancy firm, AECOM, as an Electrical
+          Engineer, where I developed my communication, teamwork and
+          collaboration skills.
         </p>
         <p className="text-xl text-white pl-5 pt-3">
           After AECOM, I wanted to explore my passion for software development
@@ -30,7 +31,7 @@ export default function AboutMe() {
         </p>
         <p className="text-xl text-white pl-5 pt-3">
           Through personal projects I really enjoyed software development and
-          enrolled in the award-winning bootcamp, Northcoders, 13-week intense
+          enrolled in the award-winning bootcamp, Northcoders, an intense
           full-stack web development course that prioritises hands-on experience
           in creating projects from scratch.
         </p>
