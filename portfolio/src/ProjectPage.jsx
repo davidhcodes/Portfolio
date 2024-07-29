@@ -6,6 +6,7 @@ import GithubB from "./assets/githubbackend.png";
 import PopcornerVideo from "./assets/videos/PopcornerMP4Video.mp4";
 import PopcornerPoster from "./assets/PopcornerPoster.png";
 import ReactPlayer from "react-player";
+import ReactLogo from "./logo.svg";
 
 export default function ProjectPage() {
   return (
@@ -22,17 +23,23 @@ export default function ProjectPage() {
             (Any websites will take a few minutes to load)
           </h2>
           <div className="grid grid-cols-3 grid-rows-5 gap-8 mt-5">
-            <div className="">
-              <h2 className="pb-2 text-xl font-semibold text-white text-center">
-                HG News App
-              </h2>
-              <img className="h-48 " src={HGNews} />
+            <div className="pt-2">
+              <div className="flex items-center justify-center">
+                <h2 className="pb-2 ml-8  text-xl font-semibold text-white text-center">
+                  HG News App
+                </h2>
+                <div className="flex-col">
+                  <img src={ReactLogo} className="w-24 pb-1" alt="React logo" />
+                  {/* </div> */}
+                </div>
+              </div>
+              <img className="h-48  " src={HGNews} />
               <div className="flex space-x-4 mt-2 items-center justify-center">
                 <a href="https://github.com/davidhcodes/nc-news-app">
                   <img className="w-36" src={Github} />
                 </a>
                 <a href="https://hg-news.netlify.app/">
-                  <button className="bg-gradient-to-l from-blue-800 to-blue-700 rounded-xl w-36 h-16 ">
+                  <button className="bg-gradient-to-l from-blue-800 to-blue-700 rounded-xl shadow-lg w-36 h-16 ">
                     <h2 className="text-white text-2xl"> Website </h2>
                   </button>
                 </a>
@@ -44,9 +51,17 @@ export default function ProjectPage() {
             </div>
 
             <div className="items-center justify-center">
-              <h2 className="pb-2 ml-8 text-xl font-semibold text-white text-center">
-                Popcorner App
-              </h2>
+              <div className="flex items-center justify-center">
+                <h2 className="pb-2 ml-8 text-xl font-semibold text-white text-center">
+                  Popcorner App
+                </h2>
+                <div className="flex-col">
+                  <img src={ReactLogo} className="w-24" alt="React logo" />
+                  <h3 className="text-react-native-blue text-xxs text-center justify-center items-center">
+                    React Native
+                  </h3>
+                </div>
+              </div>
               <div className="player-wrapper ">
                 <ReactPlayer
                   className="react-player "

@@ -29,12 +29,12 @@ export default function MainPage() {
               MEng Electrical Engineering (Upper Second-Class Honours)
             </h2> */}
             <p className="text-white mt-4 text-xs w-96">
-              Junior software developer with knowledge of full-stack development
-              from the award-winning software development bootcamp, Northcoders
-              and experience in embedded software and working for a major
-              multi-nationational engineering consulatancy firm. This website is
-              a collection of my previous and current projects and information
-              about me as a professional.
+              Full-stack software developer with knowledge of full-stack
+              development from the award-winning software development bootcamp,
+              Northcoders and experience in embedded software and working for a
+              major multi-nationational engineering consulatancy firm. This
+              website is a collection of my previous and current projects and
+              information about me as a professional.
             </p>
           </div>
           <img
@@ -94,20 +94,6 @@ export default function MainPage() {
             />
           </a>
         </div>
-        <footer className="w-full mb-14">
-          {/* <div className="flex justify-center space-x-20">
-            <Link className="link" to={`/AboutMe`}>
-              <button>
-                <h1 className="text-white font-semibold text-2xl">About</h1>
-              </button>
-            </Link>
-            <Link className="link" to={`/ProjectPage}`}>
-              <button>
-                <h1 className="text-white font-semibold text-2xl">Projects</h1>
-              </button>
-            </Link>
-          </div> */}
-        </footer>
       </div>
     </div>
   );

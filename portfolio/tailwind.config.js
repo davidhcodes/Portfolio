@@ -6,6 +6,12 @@ module.exports = {
       animation: {
         "spin-slow": "spin 10s linear infinite",
       },
+      colors: {
+        "react-native-blue": "#61dafb",
+      },
+      fontSize: {
+        xxs: "0.625rem",
+      },
     },
   },
   plugins: [],
