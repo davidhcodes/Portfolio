@@ -5,6 +5,7 @@ import GithubF from "./assets/githubfrontend.png";
 import GithubB from "./assets/githubbackend.png";
 import PopcornerVideo from "./assets/videos/PopcornerMP4Video.mp4";
 import PopcornerPoster from "./assets/PopcornerPoster.png";
+import WeatherApp from "./assets/weatherapp2.png";
 import ReactPlayer from "react-player";
 import ReactLogo from "./logo.svg";
 
@@ -67,7 +68,7 @@ export default function ProjectPage() {
                   className="react-player "
                   url={PopcornerVideo}
                   light={PopcornerPoster}
-                  width="350px"
+                  width="325px"
                   height="190px"
                   controls={true}
                 />
@@ -89,6 +90,32 @@ export default function ProjectPage() {
                   fellow film enthusiasts.
                 </p>
               </div>
+            </div>
+            <div className="pt-2">
+              <div className="flex items-center justify-center">
+                <h2 className="pb-2 ml-8  text-xl font-semibold text-white text-center">
+                  Weather App
+                </h2>
+                <div className="flex-col">
+                  <img src={ReactLogo} className="w-24 pb-1" alt="React logo" />
+                  {/* </div> */}
+                </div>
+              </div>
+              <img className="h-48  " src={WeatherApp} />
+              <div className="flex space-x-4 mt-2 items-center justify-center">
+                <a href="https://github.com/davidhcodes/WeatherApp">
+                  <img className="w-36" src={Github} />
+                </a>
+                <a href="https://davidhcodesweather.netlify.app/">
+                  <button className="bg-gradient-to-l from-blue-800 to-blue-700 rounded-xl shadow-lg w-36 h-16 ">
+                    <h2 className="text-white text-2xl"> Website </h2>
+                  </button>
+                </a>
+              </div>
+              <p className="text-white p-2">
+                An interactive weather app that displays the current weather and
+                5 day weather forecast for any city the user enters.
+              </p>
             </div>
           </div>
         </div>
