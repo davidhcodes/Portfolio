@@ -16,7 +16,7 @@ export default function AboutMe() {
           About Me
         </h1>
       </div>
-      <div className="row-start-12 row-end-14 col-span-3 w-full  min-h-screen bg-blue-950 pr-12 pl-10 ">
+      <div className="row-start-12 row-end-14 col-span-3 w-full  h-1/3 bg-blue-950 pr-12 pl-10 ">
         <p className="text-xl text-white pl-5 pt-3">
           Graduating from the University of Sheffield with an Upper Second-Class
           Honours Masters in Electrical Engineering (MEng), I worked at the
