@@ -19,7 +19,7 @@ export default function MainPage() {
       {/* Main Content Section */}
       <main className="flex-grow flex flex-col px-4 py-2 md:flex-grow md:flex md:flex-col md:items-center md:px-4 md:py-2">
         <div className="flex flex-col  w-full max-w-4xl md:flex md:flex-col md:items-center md:justify-center md:w-full md:max-w-4xl">
-          <div className=" flex flex-col items-center justify-center md:flex md:items-start md:w-full md:max-w-4xl md:justify-center md:space-x-5">
+          <div className=" flex flex-col items-center justify-center md:flex md:flex-row md:items-start md:w-full md:max-w-4xl md:justify-center md:space-x-5">
             <div className="flex flex-col items-center justify-center md:mr-10">
               <h1 className="text-3xl text-white font-bold flex font-sans shadow-md md:text-5xl md:text-white md:font-bold md:mt-4 md:flex md:font-sans md:shadow-md">
                 David Hanly-Greene

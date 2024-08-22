@@ -14,19 +14,19 @@ import QuizGame from "./assets/quizgame.png";
 
 export default function ProjectPage() {
   return (
-    <div className=" m-auto grid grid-rows-20 grid-cols-2  mb-24  bg-gradient-to-l from-indigo-950 to-blue-950  md:grid-rows-20 md:grid-cols-5 md:w-full ">
-      <div className="bg-blue-950 row-start-1 row-end-8 col-span-2 space-x-10 items-center justify-center flex   py-4  md:row-start-1 md:row-end-5 md:col-span-5 md:bg-blue-950 md:flex md:justify-center md:space-x-20 md:py-4">
+    <div className="  grid grid-rows-20 grid-cols-2  mb-24  bg-gradient-to-l from-indigo-950 to-blue-950 md:grid  md:grid-rows-20 md:grid-cols-1  ">
+      <div className="bg-blue-950 row-start-1 row-end-8 col-span-2 space-x-10 items-center justify-center flex   py-4  md:row-start-1 md:row-end-5 md:col-span-1 md:bg-blue-950 ">
         <Banner />
       </div>
-      <div className="w-full max-w-screen-lg col-span-2 row-start-8 row-end-20  md:grid-rows-20 md:w-full md:max-w-screen-lg md:m-auto md:grid md:grid-rows-20 md:grid-cols-5 md:gap-2 md:mb-24">
-        <div className="col-span-5 row-start-5 row-end-12 w-full min-h-min flex flex-col justify-between items-center md:col-span-5 md:row-start-5 md:row-end-12 md:w-full md:min-h-min md:flex md:flex-col md:justify-between md:items-center">
-          <h1 className="text-3xl text-white font-bold flex font-sans shadow-md px-8 py-1 md:text-3xl md:text-white md:font-bold md:flex md:font-sans md:shadow-md md:px-8 md:py-1">
+      <div className="w-full max-w-screen-lg col-span-2 row-start-8 row-end-20 md:w-full md:row-start-8 md:row-end-20 md:col-span-1 md:mx-auto  md:justify-center ">
+        <div className="col-span-5 row-start-5 row-end-12 w-full min-h-min items-center flex flex-col justify-between md:items-center md:w-full md:col-span-1 md:row-start-5 md:row-end-12  ">
+          <h1 className="text-3xl text-white font-bold flex font-sans shadow-md px-8 py-1 md:text-3xl  md:text-white md:font-bold md:flex md:font-sans md:shadow-md md:px-8 md:py-1 ">
             Projects
           </h1>
           <h2 className="text-xl text-center text-white font-bold flex font-sans shadow-md px-8 py-1 md:text-xl md:text-center md:text-white md:font-bold md:flex md:font-sans md:shadow-md md:px-8 md:py-1">
             (Any websites will take a few minutes to load)
           </h2>
-          <div className="grid grid-cols-1 grid-rows-5 gap-8 p-4 mt-5 md:grid md:grid-cols-1 md:grid-rows-5 md:gap-8 md:p-4 md:mt-5">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-4 mt-5 md:mt-5 justify-items-center">
             <div className="pt-2 md:pt-2">
               <div className="flex items-center justify-center md:flex md:items-center md:justify-center">
                 <h2 className="pb-2 ml-8  text-xl font-semibold text-white text-center md:pb-2 md:ml-8  md:text-xl md:font-semibold md:text-white md:text-center">
